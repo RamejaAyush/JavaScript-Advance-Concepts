@@ -33,7 +33,7 @@ console.log(elementGreaterThan5) // [ 9, 16, 25 ]
  */
 
 const sumOfElements = elementGreaterThan5.reduce(
-  (accumulator, value) => accumulator + value,
+  (accumulator, value, index, wholeArray) => accumulator + value,
   0 // initial value
 )
 console.log(sumOfElements) // 50
