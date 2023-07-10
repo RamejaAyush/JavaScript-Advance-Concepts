@@ -6,3 +6,4 @@
 - Falten Array & Object
 - Event loop
 - Map, Filter and Reduce
+- Polyfill

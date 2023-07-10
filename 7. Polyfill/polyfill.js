@@ -5,7 +5,7 @@
 /*
  * creating Map function from polyfill
  * @param {callback: function that will be executed}
- * @param {array: the elements of the array}
+ * @returns {array: the elements of the array}
  */
 Array.prototype.myMap = function (callback) {
   let result = []
@@ -27,7 +27,7 @@ console.log(squaredElements) // [ 1, 4, 9, 16, 25 ]
 /*
  * creating Filter function from polyfill
  * @param {callback: function that will be executed}
- * @param {array: the elements of the array}
+ * @returns {array: the elements of the array}
  */
 Array.prototype.myFilter = function (callback) {
   let result = []
