@@ -29,9 +29,9 @@ const ayush = {
   hobbies: {
     development: {
       frontend_dev: {
-        name: 'HTML',
-        name: 'CSS',
-        name: 'JavaScript',
+        skill1: 'HTML',
+        skill2: 'CSS',
+        skill3: 'JavaScript',
       },
     },
     UIUX: {
